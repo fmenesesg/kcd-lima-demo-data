@@ -86,6 +86,50 @@
       ]
     },
     {
+      "id": "vue",
+      "title": "Vue.js",
+      "description": "A progressive framework for building user interfaces.",
+      "key": "vue",
+      "url": "https://vuejs.org/",
+      "quadrant": "1",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "trial",
+          "date": "2023-03-15",
+          "description": "Under trial for progressive web app development."
+        },
+        {
+          "moved": 0,
+          "ringId": "assess",
+          "date": "2022-10-10",
+          "description": "Being assessed for adoption in new projects."
+        }
+      ]
+    },
+    {
+      "id": "angular",
+      "title": "Angular",
+      "description": "A platform for building mobile and desktop web applications.",
+      "key": "angular",
+      "url": "https://angular.io/",
+      "quadrant": "1",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "assess",
+          "date": "2023-04-05",
+          "description": "Being assessed for large-scale applications."
+        },
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-11-20",
+          "description": "On hold for new projects in favor of React and Vue."
+        }
+      ]
+    },
+    {
       "id": "vscode",
       "title": "Visual Studio Code",
       "description": "A source-code editor made by Microsoft for Windows, Linux, and macOS.",
@@ -130,6 +174,28 @@
       ]
     },
     {
+      "id": "docker",
+      "title": "Docker",
+      "description": "A set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers.",
+      "key": "docker",
+      "url": "https://www.docker.com/",
+      "quadrant": "2",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-06-20",
+          "description": "Adopted for container-based development."
+        },
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2022-12-05",
+          "description": "Trial phase for containerization."
+        }
+      ]
+    },
+    {
       "id": "jest",
       "title": "Jest",
       "description": "A delightful JavaScript Testing Framework with a focus on simplicity.",
@@ -152,6 +218,28 @@
       ]
     },
     {
+      "id": "mocha",
+      "title": "Mocha",
+      "description": "A feature-rich JavaScript test framework running on Node.js and in the browser.",
+      "key": "mocha",
+      "url": "https://mochajs.org/",
+      "quadrant": "3",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "trial",
+          "date": "2023-06-15",
+          "description": "Trial phase for back-end testing."
+        },
+        {
+          "moved": 0,
+          "ringId": "assess",
+          "date": "2023-01-10",
+          "description": "Being assessed for suitability in various projects."
+        }
+      ]
+    },
+    {
       "id": "cypress",
       "title": "Cypress",
       "description": "A JavaScript end-to-end testing framework.",
@@ -170,6 +258,28 @@
           "ringId": "trial",
           "date": "2023-01-10",
           "description": "Trial phase for automated testing."
+        }
+      ]
+    },
+    {
+      "id": "selenium",
+      "title": "Selenium",
+      "description": "A portable framework for testing web applications.",
+      "key": "selenium",
+      "url": "https://www.selenium.dev/",
+      "quadrant": "3",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "assess",
+          "date": "2023-07-12",
+          "description": "Being assessed for cross-browser testing."
+        },
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2023-02-18",
+          "description": "On hold due to alternative tools like Cypress."
         }
       ]
     },
@@ -214,6 +324,50 @@
           "ringId": "trial",
           "date": "2023-03-12",
           "description": "Trial phase for GitHub-based CI/CD."
+        }
+      ]
+    },
+    {
+      "id": "circleci",
+      "title": "CircleCI",
+      "description": "A continuous integration and continuous delivery platform for DevOps teams.",
+      "key": "circleci",
+      "url": "https://circleci.com/",
+      "quadrant": "4",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "trial",
+          "date": "2023-09-05",
+          "description": "Under trial for continuous delivery pipelines."
+        },
+        {
+          "moved": 0,
+          "ringId": "assess",
+          "date": "2023-04-01",
+          "description": "Being assessed for integration into existing workflows."
+        }
+      ]
+    },
+    {
+      "id": "travisci",
+      "title": "Travis CI",
+      "description": "A hosted continuous integration service used to build and test software projects hosted on GitHub.",
+      "key": "travisci",
+      "url": "https://travis-ci.org/",
+      "quadrant": "4",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "assess",
+          "date": "2023-09-25",
+          "description": "Being assessed for suitability in new projects."
+        },
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2023-06-15",
+          "description": "On hold due to preference for Jenkins and GitHub Actions."
         }
       ]
     }
