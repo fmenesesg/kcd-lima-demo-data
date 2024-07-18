@@ -7,15 +7,15 @@
     },
     {
       "id": "2",
-      "name": "Bottom left"
+      "name": "Infrastucture Automation"
     },
     {
       "id": "3",
-      "name": "Top left"
+      "name": "Cloud Providers"
     },
     {
       "id": "4",
-      "name": "Top right"
+      "name": "Container Management"
     }
   ],
   "rings": [
