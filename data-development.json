@@ -1,80 +1,221 @@
 {
+  "title": "Developer Tools Tech Radar",
   "quadrants": [
-    { "name": "Languages and Frameworks" },
-    { "name": "Infrastructure" },
-    { "name": "Datastores" },
-    { "name": "Data Management" }
+    {
+      "id": "1",
+      "name": "Languages and Frameworks"
+    },
+    {
+      "id": "2",
+      "name": "Development Tools"
+    },
+    {
+      "id": "3",
+      "name": "Testing"
+    },
+    {
+      "id": "4",
+      "name": "CI/CD"
+    }
   ],
   "rings": [
-    { "name": "Adopt", "color": "#93c47d" },
-    { "name": "Trial", "color": "#93d2c2" },
-    { "name": "Assess", "color": "#fbdb84" },
-    { "name": "Hold", "color": "#efafa9" }
+    {
+      "id": "adopt",
+      "name": "ADOPT",
+      "color": "#93c47d"
+    },
+    {
+      "id": "trial",
+      "name": "TRIAL",
+      "color": "#93d2c2"
+    },
+    {
+      "id": "assess",
+      "name": "ASSESS",
+      "color": "#fbdb84"
+    },
+    {
+      "id": "hold",
+      "name": "HOLD",
+      "color": "#efafa9"
+    }
   ],
   "entries": [
     {
-      "key": "typescript",
-      "quadrant": 0,
-      "ring": 0,
-      "label": "TypeScript",
+      "id": "typescript",
+      "title": "TypeScript",
       "description": "TypeScript is a strongly typed programming language that builds on JavaScript.",
-      "url": "https://www.typescriptlang.org/"
+      "key": "typescript",
+      "url": "https://www.typescriptlang.org/",
+      "quadrant": "1",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-01-10",
+          "description": "Widely adopted in various projects."
+        },
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2022-05-15",
+          "description": "Undergoing evaluation in various teams."
+        }
+      ]
     },
     {
-      "key": "react",
-      "quadrant": 0,
-      "ring": 1,
-      "label": "React",
+      "id": "react",
+      "title": "React",
       "description": "A JavaScript library for building user interfaces.",
-      "url": "https://reactjs.org/"
+      "key": "react",
+      "url": "https://reactjs.org/",
+      "quadrant": "1",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-02-20",
+          "description": "Widely adopted for building user interfaces."
+        },
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2022-08-01",
+          "description": "Under evaluation for front-end development."
+        }
+      ]
     },
     {
-      "key": "kubernetes",
-      "quadrant": 1,
-      "ring": 0,
-      "label": "Kubernetes",
-      "description": "An open-source system for automating deployment, scaling, and management of containerized applications.",
-      "url": "https://kubernetes.io/"
+      "id": "vscode",
+      "title": "Visual Studio Code",
+      "description": "A source-code editor made by Microsoft for Windows, Linux, and macOS.",
+      "key": "vscode",
+      "url": "https://code.visualstudio.com/",
+      "quadrant": "2",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-03-05",
+          "description": "Adopted as the primary code editor."
+        },
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2022-07-20",
+          "description": "Under trial for various development projects."
+        }
+      ]
     },
     {
-      "key": "docker",
-      "quadrant": 1,
-      "ring": 2,
-      "label": "Docker",
-      "description": "A platform for developers and sysadmins to develop, deploy, and run applications with containers.",
-      "url": "https://www.docker.com/"
+      "id": "git",
+      "title": "Git",
+      "description": "A distributed version-control system for tracking changes in source code during software development.",
+      "key": "git",
+      "url": "https://git-scm.com/",
+      "quadrant": "2",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-04-15",
+          "description": "Standard version-control system adopted."
+        },
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2022-10-10",
+          "description": "Trial phase for version control."
+        }
+      ]
     },
     {
-      "key": "mongodb",
-      "quadrant": 2,
-      "ring": 1,
-      "label": "MongoDB",
-      "description": "A source-available cross-platform document-oriented database program.",
-      "url": "https://www.mongodb.com/"
+      "id": "jest",
+      "title": "Jest",
+      "description": "A delightful JavaScript Testing Framework with a focus on simplicity.",
+      "key": "jest",
+      "url": "https://jestjs.io/",
+      "quadrant": "3",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-05-10",
+          "description": "Adopted for unit and integration testing."
+        },
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2022-11-05",
+          "description": "Under trial for JavaScript testing."
+        }
+      ]
     },
     {
-      "key": "redis",
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Redis",
-      "description": "An in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker.",
-      "url": "https://redis.io/"
+      "id": "cypress",
+      "title": "Cypress",
+      "description": "A JavaScript end-to-end testing framework.",
+      "key": "cypress",
+      "url": "https://www.cypress.io/",
+      "quadrant": "3",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-06-08",
+          "description": "Adopted for end-to-end testing."
+        },
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2023-01-10",
+          "description": "Trial phase for automated testing."
+        }
+      ]
     },
     {
-      "key": "airflow",
-      "quadrant": 3,
-      "ring": 1,
-      "label": "Apache Airflow",
-      "description": "A platform to programmatically author, schedule and monitor workflows.",
-      "url": "https://airflow.apache.org/"
+      "id": "jenkins",
+      "title": "Jenkins",
+      "description": "An open-source automation server written in Java.",
+      "key": "jenkins",
+      "url": "https://www.jenkins.io/",
+      "quadrant": "4",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-07-20",
+          "description": "Adopted for continuous integration and delivery."
+        },
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2023-02-15",
+          "description": "Under trial for CI/CD pipelines."
+        }
+      ]
     },
     {
-      "key": "dbt",
-      "quadrant": 3,
-      "ring": 2,
-      "label": "dbt",
-      "description": "A command line tool that enables data analysts and engineers to transform data in their warehouse more effectively.",
-      "url": "https://www.getdbt.com/"
+      "id": "github-actions",
+      "title": "GitHub Actions",
+      "description": "Automate, customize, and execute software development workflows right in your repository with GitHub Actions.",
+      "key": "github-actions",
+      "url": "https://github.com/features/actions",
+      "quadrant": "4",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-08-18",
+          "description": "Adopted for CI/CD workflows."
+        },
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2023-03-12",
+          "description": "Trial phase for GitHub-based CI/CD."
+        }
+      ]
     }
   ]
 }
