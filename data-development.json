@@ -1,0 +1,80 @@
+{
+  "quadrants": [
+    { "name": "Languages and Frameworks" },
+    { "name": "Infrastructure" },
+    { "name": "Datastores" },
+    { "name": "Data Management" }
+  ],
+  "rings": [
+    { "name": "Adopt", "color": "#93c47d" },
+    { "name": "Trial", "color": "#93d2c2" },
+    { "name": "Assess", "color": "#fbdb84" },
+    { "name": "Hold", "color": "#efafa9" }
+  ],
+  "entries": [
+    {
+      "key": "typescript",
+      "quadrant": 0,
+      "ring": 0,
+      "label": "TypeScript",
+      "description": "TypeScript is a strongly typed programming language that builds on JavaScript.",
+      "url": "https://www.typescriptlang.org/"
+    },
+    {
+      "key": "react",
+      "quadrant": 0,
+      "ring": 1,
+      "label": "React",
+      "description": "A JavaScript library for building user interfaces.",
+      "url": "https://reactjs.org/"
+    },
+    {
+      "key": "kubernetes",
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Kubernetes",
+      "description": "An open-source system for automating deployment, scaling, and management of containerized applications.",
+      "url": "https://kubernetes.io/"
+    },
+    {
+      "key": "docker",
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Docker",
+      "description": "A platform for developers and sysadmins to develop, deploy, and run applications with containers.",
+      "url": "https://www.docker.com/"
+    },
+    {
+      "key": "mongodb",
+      "quadrant": 2,
+      "ring": 1,
+      "label": "MongoDB",
+      "description": "A source-available cross-platform document-oriented database program.",
+      "url": "https://www.mongodb.com/"
+    },
+    {
+      "key": "redis",
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Redis",
+      "description": "An in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker.",
+      "url": "https://redis.io/"
+    },
+    {
+      "key": "airflow",
+      "quadrant": 3,
+      "ring": 1,
+      "label": "Apache Airflow",
+      "description": "A platform to programmatically author, schedule and monitor workflows.",
+      "url": "https://airflow.apache.org/"
+    },
+    {
+      "key": "dbt",
+      "quadrant": 3,
+      "ring": 2,
+      "label": "dbt",
+      "description": "A command line tool that enables data analysts and engineers to transform data in their warehouse more effectively.",
+      "url": "https://www.getdbt.com/"
+    }
+  ]
+}
